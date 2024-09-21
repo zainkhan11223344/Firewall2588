@@ -40,7 +40,8 @@ session_start();
       <?php
       if(isset($_SESSION['status'])){
         ?>
-        <h4 style="color:red;"><center><? echo $_SESSION['status']; ?></center></h4>
+        <h4 style="color:#512da8; position: absolute; top: 63%; right: 63%;" ><center><? echo $_SESSION['status']; ?></center></h4>
+
       <?php
       unset($_SESSION['status']);
       }
