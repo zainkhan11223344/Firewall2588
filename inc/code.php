@@ -33,15 +33,15 @@ if (isset($_POST['submit'])) {
       if ($value == 0) {
         header("Location: https://$hostname/vicidial/welcome.php");
       } else {
-        $_SESSION['status'] = "Invalid Credentials.";
+        $_SESSION['status'] = "Invalid Credentials";
         header('Location: ../firewall.php');
       }
     }
   } else {
-    $_SESSION['status'] = "Invalid Credentials.";
+    $_SESSION['status'] = "Invalid Credentials";
     header('Location: ../firewall.php');
   }
 } else {
-  $_SESSION['status'] = "Invalid Credentials.";
+  $_SESSION['status'] = "Invalid Credentials";
   header('Location: ../firewall.php');
 }
