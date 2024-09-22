@@ -30,8 +30,8 @@ session_start();
             <div class="toggle">
  
                 <div class="toggle-panel toggle-right">
-                    <h1>Welcome To Our Dialer   !</h1>
-                    <p>Please enter your genuine Username and Password.</p>
+                    <h1>Welcome !</h1>
+                    <p>Please enter your Username and Password.</p>
                     
                 </div>
             </div>
