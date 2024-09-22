@@ -30,7 +30,7 @@ session_start();
             <div class="toggle">
  
                 <div class="toggle-panel toggle-right">
-                    <h1>Welcome !</h1>
+                    <h1 class="typing">Welcome !</h1>
                     <p>Please enter your Username and Password.</p>
                     
                 </div>
